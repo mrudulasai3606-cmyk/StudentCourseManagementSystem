@@ -1,6 +1,6 @@
 # StudentCourseManagementSystem
 
-A full-stack web application developed using Java, Spring Boot, Spring MVC, Spring Security, Hibernate, Thymeleaf, and MySQL to manage students, courses, and course registrations.
+A full-stack web application developed using Java, Spring Boot, Spring MVC, Hibernate, Thymeleaf, and MySQL to manage students, courses, and course registrations.
 
 ---
 
@@ -19,10 +19,6 @@ A full-stack web application developed using Java, Spring Boot, Spring MVC, Spri
 - Register Students to Courses
 - View Registered Courses
 
-## Authentication
-- Secure Login using Spring Security
-- Session-based Authentication
-
 ## Frontend Features
 - Responsive UI using Bootstrap
 - Dashboard Navigation
@@ -40,7 +36,6 @@ A full-stack web application developed using Java, Spring Boot, Spring MVC, Spri
 - Spring MVC
 - Spring Data JPA
 - Hibernate
-- Spring Security
 
 ## Frontend
 - HTML
@@ -89,11 +84,9 @@ The `student_course` table is used to maintain the Many-to-Many relationship bet
 # Key Concepts Implemented
 
 - MVC Architecture
-- RESTful Routing
 - CRUD Operations
 - Database Integration
 - Many-to-Many Mapping
-- Authentication & Authorization
 - Object-Oriented Programming
 - Layered Architecture
 
@@ -122,22 +115,23 @@ The `student_course` table is used to maintain the Many-to-Many relationship bet
 
 - Implementing Many-to-Many relationship using JPA
 - Integrating Thymeleaf with Spring Boot
-- Handling Spring Security authentication
 - Managing dynamic frontend rendering
+- Handling Controller mappings and template navigation
 
 ---
 
 # Future Enhancements
 
+- Login Authentication using Spring Security
+- Role-Based Authentication (Admin/User)
 - Update/Edit Student and Course Details
 - Pagination and Sorting
 - Search and Filter Functionality
-- Role-Based Authentication (Admin/User)
 - Email Notifications
 - JWT Authentication
 - REST API Documentation using Swagger
 - Docker Deployment
-- Cloud Deployment (AWS/Render/Railway)
+- Cloud Deployment
 - File Upload Feature
 - Student Profile Images
 - Course Completion Tracking
@@ -150,7 +144,7 @@ This project helped in understanding:
 - Real-world backend architecture
 - Spring Boot ecosystem
 - Database relationships
-- Authentication and security
+- MVC architecture
 - Full-stack application development
 
 ---
@@ -161,5 +155,3 @@ Mrudula Sai
 
 GitHub:
 https://github.com/mrudulasai3606
-
----
